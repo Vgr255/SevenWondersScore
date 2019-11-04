@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="Military">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Military</string>
+    </property>
+    <widget class="IncrSpinBox" name="numbox">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>20</y>
+       <width>50</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="n1">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>20</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="n5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-5</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="p5">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>20</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>+5</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="p1">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>20</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>+1</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="Treasury">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Treasury</string>
+    </property>
+    <widget class="IncrSpinBox" name="numbox_5">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>20</y>
+       <width>50</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="n1_5">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>20</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="n5_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-5</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="p5_5">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>20</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>+5</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="p1_5">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>20</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>+1</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="Civillian">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>190</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Civillian</string>
+    </property>
+    <widget class="IncrSpinBox" name="numbox_2">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>20</y>
+       <width>50</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="n1_2">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>20</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="n5_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-5</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="p5_2">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>20</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>+5</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="p1_2">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>20</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>+1</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="Wonder">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Wonder</string>
+    </property>
+    <widget class="IncrSpinBox" name="numbox_3">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>20</y>
+       <width>50</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="n1_3">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>20</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="n5_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-5</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="p5_3">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>20</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>+5</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="p1_3">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>20</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>+1</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="Commercial">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Commercial</string>
+    </property>
+    <widget class="IncrSpinBox" name="numbox_4">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>20</y>
+       <width>50</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="n1_4">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>20</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="n5_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>-5</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="p5_4">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>20</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>+5</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="p1_4">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>20</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>+1</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSeven_Wonders_Score_Calculator">
+    <property name="title">
+     <string>Seven Wonders Score Calculator</string>
+    </property>
+   </widget>
+   <addaction name="menuSeven_Wonders_Score_Calculator"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>IncrSpinBox</class>
+   <extends>QSpinBox</extends>
+   <header>incrspinbox.h</header>
+   <slots>
+    <slot>stepFiveUp()</slot>
+    <slot>stepFiveDown()</slot>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>p5</sender>
+   <signal>clicked()</signal>
+   <receiver>numbox</receiver>
+   <slot>stepFiveUp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>219</x>
+     <y>61</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>126</x>
+     <y>64</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>p1</sender>
+   <signal>clicked()</signal>
+   <receiver>numbox</receiver>
+   <slot>stepUp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>170</x>
+     <y>73</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>120</x>
+     <y>63</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>n1</sender>
+   <signal>clicked()</signal>
+   <receiver>numbox</receiver>
+   <slot>stepDown()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>69</x>
+     <y>70</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>125</x>
+     <y>73</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>n5</sender>
+   <signal>clicked()</signal>
+   <receiver>numbox</receiver>
+   <slot>stepFiveDown()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>38</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>117</x>
+     <y>66</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
